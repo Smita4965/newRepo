@@ -1,14 +1,14 @@
 package Leads;
 
-	import org.openqa.selenium.WebElement;
 	import org.testng.Assert;
-	import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import Demo_GenericUtility.BaseAnnotationClass;
 import Demo_PomRepository.CreateLeadPage;
 import Demo_PomRepository.HomePage;
 import Demo_PomRepository.LeadInfoPage;
 import Demo_PomRepository.LeadsPage;
+
 
 	public class CreateLeadsTest extends BaseAnnotationClass {
 		@Test(groups="smokeTest")

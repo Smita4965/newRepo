@@ -1,6 +1,8 @@
 package Demo_GenericUtility;
 	
-	import org.openqa.selenium.WebDriver;
+	import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
 	import org.openqa.selenium.chrome.ChromeDriver;
 	import org.openqa.selenium.firefox.FirefoxDriver;
 	import org.testng.annotations.AfterClass;
@@ -16,13 +18,12 @@ import Demo_PomRepository.LoginPage;
 
 	public class BaseAnnotationClass {
 		
-		
-		public WebDriver driver;
 		/*object creation*/
-		public JavaUtility jLib = new JavaUtility();
 		public ExcelUtility eLib = new ExcelUtility();
 		public FileUtility fLib = new FileUtility();
+		public JavaUtility jLib = new JavaUtility();
 		public WebDriverUtility wLib = new WebDriverUtility();
+		public WebDriver driver=null;
 		public static WebDriver sDriver = null;
 		
 		
@@ -33,7 +34,7 @@ import Demo_PomRepository.LoginPage;
 		}
 		
 		@BeforeClass(groups = {"smokeTest","regressionTest"})
-		public void configBC() throws Throwable
+		public void configBC() throws IOException 
 		{
 			System.out.println("===Launch Browser===");
 			String BROWSER = fLib.readDatafromPropertyfile("browser");
