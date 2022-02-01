@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="90871" started-at="2022-02-02T00:28:10 IST" finished-at="2022-02-02T00:29:41 IST">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateLeadsTest.createLeadType()[pri:0, instance:Leads.CreateLeadsTest@285225]" name="createLeadType" class="Leads.CreateLeadsTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateLeadsTest.createLead()[pri:0, instance:Leads.CreateLeadsTest@285225]" name="createLead" class="Leads.CreateLeadsTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Test" duration-ms="90871" started-at="2022-02-02T00:28:10 IST" finished-at="2022-02-02T00:29:41 IST">
+      <class name="Leads.CreateLeadsTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:Leads.CreateLeadsTest@285225]" name="configBS" is-config="true" duration-ms="31" started-at="2022-02-02T00:28:10 IST" finished-at="2022-02-02T00:28:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:Leads.CreateLeadsTest@285225]" name="configBC" is-config="true" duration-ms="17882" started-at="2022-02-02T00:28:10 IST" finished-at="2022-02-02T00:28:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:Leads.CreateLeadsTest@285225]" name="configBM" is-config="true" duration-ms="9500" started-at="2022-02-02T00:28:28 IST" finished-at="2022-02-02T00:28:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createLead()[pri:0, instance:Leads.CreateLeadsTest@285225]" name="createLead" duration-ms="28870" started-at="2022-02-02T00:28:38 IST" finished-at="2022-02-02T00:29:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:Leads.CreateLeadsTest@285225]" name="configAM" is-config="true" duration-ms="3385" started-at="2022-02-02T00:29:07 IST" finished-at="2022-02-02T00:29:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:Leads.CreateLeadsTest@285225]" name="configBM" is-config="true" duration-ms="6615" started-at="2022-02-02T00:29:10 IST" finished-at="2022-02-02T00:29:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="createLeadType()[pri:0, instance:Leads.CreateLeadsTest@285225]" name="createLeadType" duration-ms="19597" started-at="2022-02-02T00:29:17 IST" finished-at="2022-02-02T00:29:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadType -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:Leads.CreateLeadsTest@285225]" name="configAM" is-config="true" duration-ms="3910" started-at="2022-02-02T00:29:36 IST" finished-at="2022-02-02T00:29:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:Leads.CreateLeadsTest@285225]" name="configAC" is-config="true" duration-ms="927" started-at="2022-02-02T00:29:40 IST" finished-at="2022-02-02T00:29:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:Leads.CreateLeadsTest@285225]" name="configAS" is-config="true" duration-ms="0" started-at="2022-02-02T00:29:41 IST" finished-at="2022-02-02T00:29:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- Leads.CreateLeadsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
